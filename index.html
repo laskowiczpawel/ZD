@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+    <main>
+        <header>
+            <div id="logo"><img src="img/logo.png"></div>
+                <div id="hamburgerMenu">
+                    <i class="material-icons">arrow_drop_down_circle</i>
+                </div>
+            <ul>
+                <li id="icon1">
+                    <i class="material-icons">chat</i>
+                </li>
+                <li id="icon2">
+                    <i class="material-icons">camera</i>
+                </li>
+                <li id="icon3">
+                    <i class="material-icons">play_arrow</i>
+                </li>
+                <li id="icon4">
+                    <i class="material-icons">games</i>
+                </li>
+                <li id="icon5">
+                    <i class="material-icons">desktop_mac</i>
+                </li>
+                <li id="icon6">
+                    <i class="material-icons">file_download</i>
+                </li>
+            </ul>
+            <div id="profil">
+                <div id="user"><img src="img/face.jpg"></div>
+                <div id="name">Carol Danvers</div>
+            <div id="pen">
+                <i class="material-icons">menu</i>
+            </div>
+            </div>
+
+            <div id="menu">
+                <div class="menuOption">Main</div>
+                <div class="menuOption">Profil</div>
+                <div class="menuOption">My Rec</div>
+                <div class="menuOption">Settings</div>
+                <div class="menuOption">Log out</div>
+            </div>
+
+        </header>
+        
+        <article>
+           
+                <div id="published"><bold>PUBLISHED</bold> FEB 20, 2014</div>
+                <div id="update"><bold>UPDATED</bold> FEB 20, 2014</div>
+                <div id="rating">RATING</div>
+                        <ul id="stars">
+                            <li><i class="material-icons">star_border</i></li>
+                            <li><i class="material-icons">star_border</i></li>
+                            <li><i class="material-icons">star_border</i></li>
+                            <li><i class="material-icons">star_border</i></li>
+                            <li><i class="material-icons">star_border</i></li>
+                        </ul> 
+                <div id="space"></div>
+                <div id="like">
+                    <div id="heart"><i class="material-icons">favorite</i></div>
+                    2,548
+                </div>
+
+                <div id="comment">
+                    <div id="cloud"><i class="material-icons">comment</i></div>
+                    21
+                </div>
+
+                <div id="download">
+                    <div id="drive"><i class="material-icons">file_download</i></div>
+                    564
+                </div>
+           
+        </article>
+
+    </main>
+    
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
