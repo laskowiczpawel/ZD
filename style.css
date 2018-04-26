@@ -367,11 +367,6 @@ body
     position: relative;
 }
 
-.picture:hover .icon1
-{
-    background-color: red;
-}
-
 .picture img
 {
    width: 200px;
