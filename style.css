@@ -26,7 +26,7 @@ main
 }
 
 @media only screen and (max-width: 800px) {
-    
+
     #hamburgerMenu {
         opacity: 1;
         display: block;
@@ -87,7 +87,7 @@ header > ul > li
 
 
 
-header > ul > li 
+header > ul > li
 {
     transition: all .1s ease-in-out;
 }
@@ -211,14 +211,14 @@ bold
 {
     grid-column: 1;
     grid-row: 2;
-    
+
 }
 
 #update
 {
      grid-column: 2;
      grid-row: 2;
-    
+
 }
 
 #rating
@@ -226,7 +226,7 @@ bold
     grid-column: 3;
     grid-row: 2;
     color: rgb(211, 29, 29);
-} 
+}
 
 #stars
 {
@@ -260,8 +260,8 @@ bold
 #like
 {
     grid-column: 6;
-    grid-row: 2; 
-  
+    grid-row: 2;
+
 }
 
 #heart
@@ -271,13 +271,13 @@ bold
 
 #heart:hover
 {
-   
+
 }
 
 #comment {
     grid-column: 7;
     grid-row: 2;
-   
+
 }
 
 #cloud
@@ -288,7 +288,7 @@ bold
 #download {
     grid-column: 8;
     grid-row: 2;
-  
+
 }
 
 #drive
@@ -338,7 +338,6 @@ body
 {
     width: 100%;
     background-color: rgb(49, 45, 45);
-    min-height: 1200px;
 }
 
 #uppercontent
@@ -352,9 +351,8 @@ body
 
 #gallery
 {
-    padding: 10px;
-    width: 1150px;
-    height: 650px;
+    padding: 10px 15% 10px 15%;
+    min-height: 650px;
     margin-left:auto;
     margin-right:auto;
     background-color: white;
@@ -373,7 +371,6 @@ body
 {
     background-color: red;
 }
-
 
 .picture img
 {
